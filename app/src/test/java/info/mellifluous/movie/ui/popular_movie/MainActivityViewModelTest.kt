@@ -37,7 +37,7 @@ class MainActivityViewModelTest {
 
     @Test
     fun getMoviePagedList() {
-        `when`<Any>(movieRepositoryMock.fetchLiveMoviePagedList(compositeDisposable,"popular")).thenReturn(moviePagedList)
+        `when`(movieRepositoryMock.fetchLiveMoviePagedList(compositeDisposable,"popular"))
     }
 
 }
