@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Info</string>
+    <string name="connection_problem">Connection Problem!!</string>
+    <string name="sort_by_popularity">Sort By Popularity</string>
+</resources>
